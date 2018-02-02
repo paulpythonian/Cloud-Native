@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="sftp://sungbin@71.163.0.147:22/home/sungbin/Documents/cloudNative/venv/bin/python3.6" name="sftp://sungbin@71.163.0.147:22/home/sungbin/Documents/cloudNative/venv/bin/python3.6">
+        <fileTransfer host="71.163.0.147" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
