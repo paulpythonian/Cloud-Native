@@ -47,11 +47,11 @@ def list_user(user_id):
 def add_user(new_user):
     conn = sqlite3.connect('mydb.db')
     print('Opened database successfully')
-    api_list = []
     cursor = conn.cursor()
     cursor.execute("SELECT * from users where username=? or email=?", (new_user['username'], new_user['email']))
     data = cursor.fetchall()
     if len(data) != 0:
+        print('eror1')
         abort(409)
     else:
         cursor.execute("INSERT INTO users (username, email, password, full_name) VALUES (?,?,?,?)",
