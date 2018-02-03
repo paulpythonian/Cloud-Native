@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response, abort
+from flask import Flask, jsonify, make_response, abort, request
 import json
 import sqlite3
 
@@ -43,6 +43,25 @@ def list_user(user_id):
         return jsonify(user)
     abort(404)
 
+
+def add_user(new_user):
+    conn = sqlite3.connect('mydb.db')
+    print('Opened database successfully')
+    api_list = []
+    cursor = conn.cursor()
+    cursor.execute("SELECT * from users where username=? or email=?", (new_user['username'], new_user['email']))
+    data = cursor.fetchall()
+    if len(data) != 0:
+        abort(409)
+    else:
+        cursor.execute("INSERT INTO users (username, email, password, full_name) VALUES (?,?,?,?)",
+                       ( new_user['username'],
+                         new_user['email'],
+                         new_user['password'],
+                         new_user['name']))
+        conn.commit()
+        return "Success"
+    conn.close()
 
 
 
@@ -100,12 +119,43 @@ def get_user(user_id):
     return list_user(user_id)
 
 
+@app.route('/api/v1/users', methods=['POST'])
+def create_user():
+    if not request.json or not 'username' in request.json or 'email' in request.json or not 'password' in request.json:
+        abort(400)
+    user = {
+        'username': request.json['username'],
+        'email': request.json['email'],
+        'name': request.json.get('name', ''),
+        'password': request.json['password']
+    }
+    return jsonify({'status': add_user(user)}), 201
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @app.errorhandler(404)
 def resource_not_found(error):
     return make_response(jsonify({'error': 'Resource not found!'}), 404)
 
+@app.errorhandler(400)
+def invaild_request(error):
+    return make_response(jsonify({'error': 'Bad Request'}), 400)
 
 
 if __name__ == '__main__':
