@@ -40,7 +40,7 @@ def list_user(user_id):
         user['id'] = data[0][4]
         conn.close()
         return jsonify(user)
-    return 404
+    return
 
 
 
