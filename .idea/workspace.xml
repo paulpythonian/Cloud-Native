@@ -17,13 +17,13 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+            <state relative-caret-position="310">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1517618692418" expanded="true" signature="234:292" ph="SELECT usern... users" />
-                <marker date="1517618692418" expanded="true" signature="756:786" ph="SELECT * fro... users" />
-                <marker date="1517618692418" expanded="true" signature="1322:1380" ph="SELECT versi... apirelease" />
+                <marker date="1517618875555" expanded="true" signature="234:292" ph="SELECT usern... users" />
+                <marker date="1517618875555" expanded="true" signature="776:806" ph="SELECT * fro... users" />
+                <marker date="1517618875555" expanded="true" signature="1342:1400" ph="SELECT versi... apirelease" />
               </folding>
             </state>
           </provider>
@@ -175,13 +175,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="310">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1517618692418" expanded="true" signature="234:292" ph="SELECT usern... users" />
-            <marker date="1517618692418" expanded="true" signature="756:786" ph="SELECT * fro... users" />
-            <marker date="1517618692418" expanded="true" signature="1322:1380" ph="SELECT versi... apirelease" />
+            <marker date="1517618875555" expanded="true" signature="234:292" ph="SELECT usern... users" />
+            <marker date="1517618875555" expanded="true" signature="776:806" ph="SELECT * fro... users" />
+            <marker date="1517618875555" expanded="true" signature="1342:1400" ph="SELECT versi... apirelease" />
           </folding>
         </state>
       </provider>

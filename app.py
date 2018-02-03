@@ -29,7 +29,8 @@ def list_user(user_id):
     conn = sqlite3.connect('mydb.db')
     print("Opened database successfully \n\n")
     api_list = []
-    cursor = conn.execute("SELECT * from users where id=?", (user_id))
+    cursor = conn.cursor()
+    cursor.execute("SELECT * from users where id=?", (user_id))
     data = cursor.fetchall()
     if len(data) != 0:
         user = {}
