@@ -28,6 +28,7 @@ def list_users():
 def list_user(user_id):
     conn = sqlite3.connect('mydb.db')
     print("Opened database successfully \n\n")
+
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM users WHERE id=?", (user_id,))
     data = cursor.fetchall()
@@ -40,7 +41,6 @@ def list_user(user_id):
         user['id'] = data[0][4]
         conn.close()
         return jsonify(user)
-    return
 
 
 
