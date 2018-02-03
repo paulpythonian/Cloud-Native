@@ -9,7 +9,7 @@ app = Flask(__name__)
 def list_users():
     conn = sqlite3.connect('mydb.db')
     print('Opened database successfully \n\n')
-    api_list = {}
+    api_list = []
     cursor = conn.execute("SELECT username, email, password, full_name, id from users")
     for row in cursor:
         a_dict = {}
