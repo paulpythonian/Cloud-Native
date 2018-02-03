@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, make_response
 import json
 import sqlite3
 
@@ -99,6 +99,14 @@ def get_users():
 def get_user(user_id):
     return list_user(user_id)
 
+
+
+
+
+
+@app.error_handlers(404)
+def resource_not_found(error):
+    return make_response(jsonify({'error': 'Resource not found!'}), 404)
 
 
 
