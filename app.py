@@ -25,7 +25,22 @@ def list_users():
 
 
 
-
+def list_user(user_id):
+    conn = sqlite3.connect('mydb.db')
+    print("Opened database successfully \n\n")
+    api_list = []
+    cursor = conn.execute("SELECT * from users where id=?", (user_id))
+    data = cursor.fetchall()
+    if len(data) != 0:
+        user = {}
+        user['username'] = data[0][0]
+        user['email'] = data[0][1]
+        user['password'] = data[0][2]
+        user['name'] = data[0][3]
+        user['id'] = data[0][4]
+        api_list.append(user)
+    conn.close()
+    return jsonify(api_list)
 
 
 
@@ -78,6 +93,10 @@ def home_index():
 def get_users():
     return list_users()
 
+
+@app.route('/api/v1/users/<int:user_id>', methods=['GET'])
+def get_user(user_id):
+    return list_user(user_id)
 
 
 
