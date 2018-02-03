@@ -63,6 +63,19 @@ def add_user(new_user):
         return "Success"
     conn.close()
 
+def del_user(del_user):
+    conn = sqlite3.connect('mydb.db')
+    print('Opened database successfully')
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM users where username=?", (del_user,))
+    data = cursor.fetchall()
+    print("Data", data)
+    if len(data) == 0:
+        abort(404)
+    else:
+        cursor.execute("DELETE FROM users where username=?", (del_user,))
+        conn.commit()
+        return "Success"
 
 
 
@@ -132,6 +145,12 @@ def create_user():
     }
     return jsonify({'status': add_user(user)}), 201
 
+@app.route('/api/v1/users', methods=['DELETE'])
+def delete_user():
+    if not request.json or not 'username' in request.json:
+        abort(400)
+    user=request.json['username']
+    return jsonify({'status': del_user(user)}), 200
 
 
 
