@@ -30,7 +30,7 @@ def list_user(user_id):
     print("Opened database successfully \n\n")
     api_list = []
     cursor = conn.cursor()
-    cursor.execute("SELECT * from users where id=?", (user_id))
+    cursor.execute("SELECT * FROM users WHERE id=?", (user_id,))
     data = cursor.fetchall()
     if len(data) != 0:
         user = {}
