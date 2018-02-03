@@ -41,7 +41,7 @@ def list_user(user_id):
         user['id'] = data[0][4]
         api_list.append(user)
     conn.close()
-    return jsonify({api_list})
+    return jsonify(api_list)
 
 
 
