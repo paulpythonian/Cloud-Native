@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response
+from flask import Flask, jsonify, make_response, abort
 import json
 import sqlite3
 
@@ -41,7 +41,7 @@ def list_user(user_id):
         user['id'] = data[0][4]
         conn.close()
         return jsonify(user)
-    return 404
+    abort(404)
 
 
 
