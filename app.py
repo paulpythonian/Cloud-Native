@@ -104,7 +104,7 @@ def get_user(user_id):
 
 
 
-@app.error_handler(404)
+@app.errorhandler(404)
 def resource_not_found(error):
     return make_response(jsonify({'error': 'Resource not found!'}), 404)
 
