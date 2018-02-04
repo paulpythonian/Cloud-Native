@@ -172,6 +172,7 @@ def update_user(user_id):
     user = {}
     if not request.json:
         print(request.json)
+        abort(404)
     user['id']=user_id
     key_list = request.json.keys()
     for i in key_list:
