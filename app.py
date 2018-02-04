@@ -109,7 +109,7 @@ def list_tweets():
     data = cursor.fetchall()
     if data != 0:
         print('if runs')
-        for row in cursor:
+        for row in data:
             tweets = {}
             tweets['Tweet By'] = row[0]
             tweets['Body'] = row[1]
