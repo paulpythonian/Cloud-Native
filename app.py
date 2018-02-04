@@ -103,11 +103,12 @@ def upd_user(user):
 
 def list_tweets():
     conn = sqlite3.connect('mydb.db')
-    print("Opened database successfully");
+    print("Opened database successfully")
     api_list = []
     cursor = conn.execute("SELECT username, body, tweet_time, id FROM tweets")
     data = cursor.fetchall()
     if data != 0:
+        print('if runs')
         for row in cursor:
             tweets = {}
             tweets['Tweet By'] = row[0]
@@ -116,6 +117,7 @@ def list_tweets():
             tweets['id'] = row[3]
             api_list.append(tweets)
     else:
+        print('else runs')
         return api_list
     conn.close()
     return jsonify({'tweets_list': api_list})
