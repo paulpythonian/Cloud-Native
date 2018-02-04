@@ -170,8 +170,8 @@ def delete_user():
 @app.route('/api/v1/users/<int:user_id>', methods={'PUT'})
 def update_user(user_id):
     user = {}
-    if not request.json:
-        abort(400)
+    #if not request.json:
+     #   abort(400)
     user['id']=user_id
     key_list = request.json.keys()
     for i in key_list:
