@@ -115,6 +115,7 @@ def list_tweets():
             tweets['Body'] = row[1]
             tweets['Timestamp'] = row[2]
             tweets['id'] = row[3]
+            print(tweets)
             api_list.append(tweets)
     else:
         print('else runs')
