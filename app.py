@@ -231,7 +231,7 @@ def add_tweets():
     user_tweet['body'] = request.json['body']
     user_tweet['created_at'] = strftime("%Y-%m-%dT%H:%M:%SZ", gmtime())
     print(user_tweet)
-    return jsonify({'status', add_tweet(user_tweet)}), 200
+    return jsonify({'status': add_tweet(user_tweet)}), 200
 
 
 
