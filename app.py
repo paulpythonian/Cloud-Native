@@ -98,6 +98,28 @@ def upd_user(user):
 
 
 
+### tweet functions
+
+def list_tweets():
+    conn = sqlite3.connect('mydb.db')
+    print("Opened database successfully");
+    api_list = []
+    cursor = conn.execute("SELECT username, body, tweet_time, id FROM tweets")
+    data = cursor.fetchall()
+    if data != 0:
+        for row in cursor:
+            tweets = {}
+            tweets['Tweet By'] = row[0]
+            tweets['Body'] = row[1]
+            tweets['Timestamp'] = row[2]
+            tweets['id'] = row[3]
+            api_list.append(tweets)
+    else:
+        return api_list
+    conn.close()
+    return jsonify({'tweets_list': api_list})
+
+
 
 
 
@@ -183,6 +205,11 @@ def update_user(user_id):
 
 
 
+### Tweet routes
+
+@app.route('/api/v2/tweets', methods=['GET'])
+def get_tweets():
+    return list_tweets()
 
 
 
