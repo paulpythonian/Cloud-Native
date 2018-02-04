@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,18 +16,22 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            <state relative-caret-position="958">
+              <caret line="96" column="23" lean-forward="false" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
-                <marker date="1517623399085" expanded="true" signature="265:323" ph="SELECT usern... users" />
-                <marker date="1517623399085" expanded="true" signature="790:820" ph="SELECT * fro... users" />
-                <marker date="1517623399085" expanded="true" signature="1300:1347" ph="SELECT * fro... users" />
-                <marker date="1517623399085" expanded="true" signature="1521:1577" ph="INSERT INTO users... " />
-                <marker date="1517623399085" expanded="true" signature="1521:1594" ph="INSERT INTO users... " />
-                <marker date="1517623399085" expanded="true" signature="1995:2031" ph="SELECT * FRO... users" />
-                <marker date="1517623399085" expanded="true" signature="2176:2210" ph="DELETE FROM users... " />
-                <marker date="1517623399085" expanded="true" signature="2470:2528" ph="SELECT versi... apirelease" />
+                <marker date="1517731310365" expanded="true" signature="265:323" ph="SELECT usern... users" />
+                <marker date="1517731310365" expanded="true" signature="790:820" ph="SELECT * fro... users" />
+                <marker date="1517731310365" expanded="true" signature="1300:1347" ph="SELECT * fro... users" />
+                <marker date="1517731310365" expanded="true" signature="1521:1577" ph="INSERT INTO users... " />
+                <marker date="1517731310365" expanded="true" signature="1521:1594" ph="INSERT INTO users... " />
+                <marker date="1517731310365" expanded="true" signature="1995:2031" ph="SELECT * FRO... users" />
+                <marker date="1517731310365" expanded="true" signature="2176:2210" ph="DELETE FROM users... " />
+                <marker date="1517731310365" expanded="true" signature="2423:2453" ph="SELECT * FRO... users" />
+                <marker date="1517731310365" expanded="true" signature="2715:2744" ph="UPDATE users " />
+                <marker date="1517731310365" expanded="true" signature="2715:2747" ph="UPDATE users " />
+                <marker date="1517731310365" expanded="true" signature="2715:2751" ph="UPDATE users " />
+                <marker date="1517731310365" expanded="true" signature="3024:3082" ph="SELECT versi... apirelease" />
               </folding>
             </state>
           </provider>
@@ -72,9 +75,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1854" />
+    <option name="x" value="5459" />
+    <option name="y" value="-13" />
+    <option name="width" value="2758" />
+    <option name="height" value="1482" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,7 +147,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+    <frame x="5459" y="-13" width="2758" height="1482" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -151,9 +155,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40722495" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12556732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -198,18 +202,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        <state relative-caret-position="958">
+          <caret line="96" column="23" lean-forward="false" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
-            <marker date="1517623399085" expanded="true" signature="265:323" ph="SELECT usern... users" />
-            <marker date="1517623399085" expanded="true" signature="790:820" ph="SELECT * fro... users" />
-            <marker date="1517623399085" expanded="true" signature="1300:1347" ph="SELECT * fro... users" />
-            <marker date="1517623399085" expanded="true" signature="1521:1577" ph="INSERT INTO users... " />
-            <marker date="1517623399085" expanded="true" signature="1521:1594" ph="INSERT INTO users... " />
-            <marker date="1517623399085" expanded="true" signature="1995:2031" ph="SELECT * FRO... users" />
-            <marker date="1517623399085" expanded="true" signature="2176:2210" ph="DELETE FROM users... " />
-            <marker date="1517623399085" expanded="true" signature="2470:2528" ph="SELECT versi... apirelease" />
+            <marker date="1517731310365" expanded="true" signature="265:323" ph="SELECT usern... users" />
+            <marker date="1517731310365" expanded="true" signature="790:820" ph="SELECT * fro... users" />
+            <marker date="1517731310365" expanded="true" signature="1300:1347" ph="SELECT * fro... users" />
+            <marker date="1517731310365" expanded="true" signature="1521:1577" ph="INSERT INTO users... " />
+            <marker date="1517731310365" expanded="true" signature="1521:1594" ph="INSERT INTO users... " />
+            <marker date="1517731310365" expanded="true" signature="1995:2031" ph="SELECT * FRO... users" />
+            <marker date="1517731310365" expanded="true" signature="2176:2210" ph="DELETE FROM users... " />
+            <marker date="1517731310365" expanded="true" signature="2423:2453" ph="SELECT * FRO... users" />
+            <marker date="1517731310365" expanded="true" signature="2715:2744" ph="UPDATE users " />
+            <marker date="1517731310365" expanded="true" signature="2715:2747" ph="UPDATE users " />
+            <marker date="1517731310365" expanded="true" signature="2715:2751" ph="UPDATE users " />
+            <marker date="1517731310365" expanded="true" signature="3024:3082" ph="SELECT versi... apirelease" />
           </folding>
         </state>
       </provider>
