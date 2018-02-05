@@ -5,39 +5,31 @@
     <title>Tweet Application</title>
 </head>
 <body>
-<form data-bind="submit: addUser">
-    <div class="navbar">
-        <div class="navbar-inner">
-            <a href="#" class="brand">
-                Tweet App Demo
-            </a>
-        </div>
-    </div>
-    <div id="main" class="container">
-            <table class="table table-striped">
-                <div>
-                    Name: <br><input data-bind="value: name" type="text" placeholder="Full Name of user">
-                </div>
+    <form data-bind="submit: addUser">
+     <div class="navbar">
+       <div class="navbar-inner">
+           <a class="brand" href="#">Tweet App Demo</a>
+       </div>
+     </div>
+     <div id="main" class="container">
+      <table class="table table-striped">
+          <div>
+              Name: <input data-bind="value: name" placeholder="Full Name of user" type="text"/>
+          </div>
+          <div>
+              Username: <input data-bind="value: username" placeholder="Username" type="username"></input>
+          </div>
+          <div>
+              email: <input data-bind="value: email" placeholder="Email id" type="email"></input>
+          </div>
+          <div>
+              password: <input data-bind="value: password" type="password" placeholder="Password"></input>
+          </div>
+          <button type="submit">Add User</button>
+      </table>
+     </div>
+    </form>
 
-                <div>
-                    Username: <br><input data-bind="value: username" type="text" placeholder="Username">
-                </div>
-
-                <div>
-                    email: <br><input data-bind="value: email" type="email" placeholder="Email">
-                </div>
-                <div>
-                    password: <br><input data-bind="value: password" type="password" placeholder="Password">
-                </div>
-
-                <button type="submit"> Add User</button>
-
-
-            </table>
-    </div>
-</form>
-
-<div>
     <ul data-bind="foreach: user_list, visible: user_list().length > 0">
         <li>
             <p data-bind="text: name"></p>
@@ -46,9 +38,6 @@
             <p data-bind="text: password"></p>
         </li>
     </ul>
-</div>
-
-    </div>
 
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
