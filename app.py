@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response, abort, request
+from flask import Flask, jsonify, make_response, abort, request, render_template
 import json
 import sqlite3
 from time import strftime, gmtime
@@ -160,6 +160,15 @@ def list_tweet(user_id):
     return jsonify({'tweet':api_list})
 
 
+
+
+
+
+
+
+@app.route('/adduser')
+def adduser():
+    return render_template('adduser.html')
 
 
 
