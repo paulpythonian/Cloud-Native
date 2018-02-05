@@ -5,7 +5,7 @@
     <title>Tweet Application</title>
 </head>
 <body>
-
+<form data-bind="submit: addUser">
     <div class="navbar">
         <div class="navbar-inner">
             <a href="#" class="brand">
@@ -14,24 +14,39 @@
         </div>
     </div>
     <div id="main" class="container">
-        <form action="">
             <table class="table table-striped">
                 <div>
-                    Name: <br><input type="text" placeholder="Full Name of user">
+                    Name: <br><input data-bind="value: name" type="text" placeholder="Full Name of user">
                 </div>
 
                 <div>
-                    email: <br><input type="email" placeholder="Email">
+                    Username: <br><input data-bind="value: username" type="text" placeholder="Username">
+                </div>
+
+                <div>
+                    email: <br><input data-bind="value: email" type="email" placeholder="Email">
                 </div>
                 <div>
-                    password: <br><input type="password" placeholder="Password">
+                    password: <br><input data-bind="value: password" type="password" placeholder="Password">
                 </div>
 
                 <button type="submit"> Add User</button>
 
 
             </table>
-        </form>
+    </div>
+</form>
+
+<div>
+    <ul data-bind="foreach: user_list, visible: user_list().length > 0">
+        <li>
+            <p data-bind="text: name"></p>
+            <p data-bind="text: username"></p>
+            <p data-bind="text: email"></p>
+            <p data-bind="text: password"></p>
+        </li>
+    </ul>
+</div>
 
     </div>
 
