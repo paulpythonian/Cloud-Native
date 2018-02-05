@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/static/app.js" afterPath="$PROJECT_DIR$/static/app.js" />
-      <change beforePath="$PROJECT_DIR$/templates/adduser.html" afterPath="$PROJECT_DIR$/templates/adduser.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adduser.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adduser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adduser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="1368">
+              <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -95,8 +94,8 @@
         <option value="$PROJECT_DIR$/flask_test.py" />
         <option value="$PROJECT_DIR$/template/adduser.html" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/static/app.js" />
         <option value="$PROJECT_DIR$/templates/adduser.html" />
+        <option value="$PROJECT_DIR$/static/app.js" />
       </list>
     </option>
   </component>
@@ -137,6 +136,11 @@
             <path>
               <item name="CloudNative" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudNative" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudNative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudNative" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudNative" type="b2602c69:ProjectViewProjectNode" />
@@ -307,18 +311,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/app.js">
+    <entry file="file://$PROJECT_DIR$/templates/adduser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        <state relative-caret-position="1368">
+          <caret line="59" column="50" lean-forward="true" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adduser.html">
+    <entry file="file://$PROJECT_DIR$/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>

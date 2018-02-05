@@ -1,3 +1,5 @@
+console.log('app.js')
+
 function User(data) {
     this.id = ko.observable(data.id);
     this.name = ko.observable(data.name);
