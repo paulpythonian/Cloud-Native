@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="" />
+    <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change beforePath="$PROJECT_DIR$/static/tweet.js" afterPath="$PROJECT_DIR$/static/tweet.js" />
+      <change beforePath="$PROJECT_DIR$/templates/addtweets.html" afterPath="$PROJECT_DIR$/templates/addtweets.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,37 +19,57 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="612">
+              <caret line="176" column="42" lean-forward="false" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
               <folding>
                 <element signature="e#0#80#0" expanded="true" />
-                <marker date="1517870856626" expanded="true" signature="368:426" ph="SELECT usern... users" />
-                <marker date="1517870856626" expanded="true" signature="893:923" ph="SELECT * fro... users" />
-                <marker date="1517870856626" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
-                <marker date="1517870856626" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
-                <marker date="1517870856626" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
-                <marker date="1517870856626" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
-                <marker date="1517870856626" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
-                <marker date="1517870856626" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
-                <marker date="1517870856626" expanded="true" signature="2818:2846" ph="UPDATE users " />
-                <marker date="1517870856626" expanded="true" signature="2818:2849" ph="UPDATE users " />
-                <marker date="1517870856626" expanded="true" signature="2818:2853" ph="UPDATE users " />
-                <marker date="1517870856626" expanded="true" signature="2818:2888" ph="UPDATE users... " />
-                <marker date="1517870856626" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
-                <marker date="1517870856626" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
-                <marker date="1517870856626" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
-                <marker date="1517870856626" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
-                <marker date="1517870856626" expanded="true" signature="4996:5054" ph="SELECT versi... apirelease" />
+                <marker date="1517873244360" expanded="true" signature="368:426" ph="SELECT usern... users" />
+                <marker date="1517873244360" expanded="true" signature="893:923" ph="SELECT * fro... users" />
+                <marker date="1517873244360" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
+                <marker date="1517873244360" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
+                <marker date="1517873244360" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
+                <marker date="1517873244360" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
+                <marker date="1517873244360" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
+                <marker date="1517873244360" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
+                <marker date="1517873244360" expanded="true" signature="2818:2846" ph="UPDATE users " />
+                <marker date="1517873244360" expanded="true" signature="2818:2849" ph="UPDATE users " />
+                <marker date="1517873244360" expanded="true" signature="2818:2853" ph="UPDATE users " />
+                <marker date="1517873244360" expanded="true" signature="2818:2888" ph="UPDATE users... " />
+                <marker date="1517873244360" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
+                <marker date="1517873244360" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
+                <marker date="1517873244360" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
+                <marker date="1517873244360" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
+                <marker date="1517873244360" expanded="true" signature="5082:5140" ph="SELECT versi... apirelease" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addtweets.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/addtweets.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-159">
               <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweet.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/tweet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1692">
+              <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -105,8 +130,10 @@
         <option value="$PROJECT_DIR$/template/adduser.html" />
         <option value="$PROJECT_DIR$/static/app.js" />
         <option value="$PROJECT_DIR$/templates/adduser.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/static/tweet.js" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/addtweets.html" />
       </list>
     </option>
   </component>
@@ -116,11 +143,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="2" />
-    <option name="width" value="2756" />
-    <option name="height" value="1753" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-3258" />
+    <option name="y" value="-17" />
+    <option name="width" value="2762" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -200,7 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+    <frame x="-3840" y="0" width="3840" height="2160" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -208,9 +235,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4070385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40656063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20543806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09248401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -243,23 +270,23 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#80#0" expanded="true" />
-            <marker date="1517870856626" expanded="true" signature="368:426" ph="SELECT usern... users" />
-            <marker date="1517870856626" expanded="true" signature="893:923" ph="SELECT * fro... users" />
-            <marker date="1517870856626" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
-            <marker date="1517870856626" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
-            <marker date="1517870856626" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
-            <marker date="1517870856626" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
-            <marker date="1517870856626" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="2818:2846" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2849" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2853" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2888" ph="UPDATE users... " />
-            <marker date="1517870856626" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
-            <marker date="1517870856626" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
-            <marker date="1517870856626" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
-            <marker date="1517870856626" expanded="true" signature="4996:5054" ph="SELECT versi... apirelease" />
+            <marker date="1517873244360" expanded="true" signature="368:426" ph="SELECT usern... users" />
+            <marker date="1517873244360" expanded="true" signature="893:923" ph="SELECT * fro... users" />
+            <marker date="1517873244360" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
+            <marker date="1517873244360" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
+            <marker date="1517873244360" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
+            <marker date="1517873244360" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
+            <marker date="1517873244360" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="2818:2846" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2849" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2853" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2888" ph="UPDATE users... " />
+            <marker date="1517873244360" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
+            <marker date="1517873244360" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
+            <marker date="1517873244360" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
+            <marker date="1517873244360" expanded="true" signature="5082:5140" ph="SELECT versi... apirelease" />
           </folding>
         </state>
       </provider>
@@ -313,37 +340,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="612">
+          <caret line="176" column="42" lean-forward="false" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
           <folding>
             <element signature="e#0#80#0" expanded="true" />
-            <marker date="1517870856626" expanded="true" signature="368:426" ph="SELECT usern... users" />
-            <marker date="1517870856626" expanded="true" signature="893:923" ph="SELECT * fro... users" />
-            <marker date="1517870856626" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
-            <marker date="1517870856626" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
-            <marker date="1517870856626" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
-            <marker date="1517870856626" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
-            <marker date="1517870856626" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="2818:2846" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2849" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2853" ph="UPDATE users " />
-            <marker date="1517870856626" expanded="true" signature="2818:2888" ph="UPDATE users... " />
-            <marker date="1517870856626" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
-            <marker date="1517870856626" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
-            <marker date="1517870856626" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
-            <marker date="1517870856626" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
-            <marker date="1517870856626" expanded="true" signature="4996:5054" ph="SELECT versi... apirelease" />
+            <marker date="1517873244360" expanded="true" signature="368:426" ph="SELECT usern... users" />
+            <marker date="1517873244360" expanded="true" signature="893:923" ph="SELECT * fro... users" />
+            <marker date="1517873244360" expanded="true" signature="1403:1450" ph="SELECT * fro... users" />
+            <marker date="1517873244360" expanded="true" signature="1624:1680" ph="INSERT INTO users... " />
+            <marker date="1517873244360" expanded="true" signature="1624:1697" ph="INSERT INTO users... " />
+            <marker date="1517873244360" expanded="true" signature="2098:2134" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="2279:2313" ph="DELETE FROM users... " />
+            <marker date="1517873244360" expanded="true" signature="2526:2556" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="2818:2846" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2849" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2853" ph="UPDATE users " />
+            <marker date="1517873244360" expanded="true" signature="2818:2888" ph="UPDATE users... " />
+            <marker date="1517873244360" expanded="true" signature="3112:3161" ph="SELECT usern... tweets" />
+            <marker date="1517873244360" expanded="true" signature="3789:3825" ph="SELECT * FRO... users" />
+            <marker date="1517873244360" expanded="true" signature="3961:4023" ph="INSERT into tweets... " />
+            <marker date="1517873244360" expanded="true" signature="4336:4367" ph="SELECT * FRO... tweets" />
+            <marker date="1517873244360" expanded="true" signature="5082:5140" ph="SELECT versi... apirelease" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/static/tweet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="1692">
+          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addtweets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>

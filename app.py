@@ -167,13 +167,14 @@ def list_tweet(user_id):
 
 
 
-
 @app.route('/adduser')
 def adduser():
     return render_template('adduser.html')
 
 
-
+@app.route('/addtweets')
+def addtweetjs():
+    return render_template('addtweets.html')
 
 
 
