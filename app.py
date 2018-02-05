@@ -155,8 +155,9 @@ def list_tweet(user_id):
         user['username'] = data[0][1]
         user['body'] = data[0][2]
         user['tweet_time'] = data[0][3]
-
+        api_list.append(user)
     conn.close()
+    return jsonify({api_list})
 
 
 
