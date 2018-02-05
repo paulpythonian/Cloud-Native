@@ -254,9 +254,9 @@ def add_tweets():
     return jsonify({'status': add_tweet(user_tweet)}), 200
 
 
-@app.route('/api/v2/tweets/<int:id>', methods=['GET'])
-def get_tweets(id):
-    return list_tweet(id)
+@app.route('/api/v2/tweets/<int:tweet_id>', methods=['GET'])
+def get_tweets(tweet_id):
+    return list_tweet(tweet_id)
 
 
 
