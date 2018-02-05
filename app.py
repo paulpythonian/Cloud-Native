@@ -103,7 +103,7 @@ def upd_user(user):
 
 ### tweet functions
 
-def list_tweets():
+def list_all_tweets():
     conn = sqlite3.connect('mydb.db')
     print("Opened database successfully")
     api_list = []
@@ -252,7 +252,7 @@ def update_user(user_id):
 
 @app.route('/api/v2/tweets', methods=['GET'])
 def get_tweets():
-    return list_tweets()
+    return list_all_tweets()
 
 
 @app.route('/api/v2/tweets', methods=['POST'])
