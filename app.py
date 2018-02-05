@@ -1,10 +1,12 @@
 from flask import Flask, jsonify, make_response, abort, request, render_template
+from flask_cors import CORS, cross_origin
 import json
 import sqlite3
 from time import strftime, gmtime
 
 app = Flask(__name__)
 
+CORS(app)
 
 
 def list_users():
