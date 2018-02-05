@@ -121,7 +121,7 @@ def list_tweets():
             api_list.append(tweets)
     else:
         print('else runs')
-        return api_list
+        return jsonify({'tweets_list':api_list})
     conn.close()
     return jsonify({'tweets_list': api_list})
 
