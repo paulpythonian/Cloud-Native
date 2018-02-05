@@ -109,7 +109,7 @@ def list_tweets():
     data = cursor.fetchall()
     if data != 0:
         print('if runs')
-        for row in data:
+        for row in data :
             tweets = {}
             tweets['Tweet By'] = row[0]
             tweets['Body'] = row[1]
@@ -138,8 +138,25 @@ def add_tweet(new_tweets):
         return "Success"
 
 
+def list_tweet(user_id):
+    print(user_id)
+    conn = sqlite3.connect('mydb.db')
+    print("Opened database successfully")
+    api_list = []
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM tweets WHERE id=?', (user_id,))
+    data = cursor.fetchall()
+    print(data)
+    if len(data) == 0:
+        abort(400)
+    else:
+        user = {}
+        user['id'] = data[0][0]
+        user['username'] = data[0][1]
+        user['body'] = data[0][2]
+        user['tweet_time'] = data[0][3]
 
-
+    conn.close()
 
 
 
@@ -235,6 +252,22 @@ def add_tweets():
     user_tweet['created_at'] = strftime("%Y-%m-%dT%H:%M:%SZ", gmtime())
     print(user_tweet)
     return jsonify({'status': add_tweet(user_tweet)}), 200
+
+
+@app.route('/api/v2/tweets/<int:id>', methods=['GET'])
+def get_tweets(id):
+    return list_tweet(id)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
