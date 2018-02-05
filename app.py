@@ -255,7 +255,7 @@ def add_tweets():
 
 
 @app.route('/api/v2/tweets/<int:tweet_id>', methods=['GET'])
-def get_tweets(tweet_id):
+def list_tweets(tweet_id):
     return list_tweet(tweet_id)
 
 
