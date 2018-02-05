@@ -14,3 +14,15 @@ class FlaskappTests(unittest.TestCase):
         result = self.app.get('/api/v1/users')
         # assert the status code of the response
         self.assertEqual(result.status_code, 200)
+
+    def test_tweets_status_code(self):
+        # sends HTTP GET request to the application
+        result = self.app.get('/api/v2/tweets')
+        # assert the status code of the response
+        self.assertEqual(result.status_code, 200)
+
+    def test_tweets_status_code(self):
+        # sends HTTP GET request to the application
+        result = self.app.get('/api/v1/info')
+        # assert the status code of the response
+        self.assertEqual(result.status_code, 200)
