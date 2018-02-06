@@ -4,6 +4,9 @@ import json
 import sqlite3
 from time import strftime, gmtime
 
+
+
+
 app = Flask(__name__)
 app.secret_key ='alsdfoiwjoij32oro23ro2nwanfownonlfksoi'
 CORS(app)
@@ -191,6 +194,7 @@ def addtweetjs():
 def clearsession():
     session.clear()
     return redirect(url_for('main'))
+
 
 
 
