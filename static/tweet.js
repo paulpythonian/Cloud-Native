@@ -18,10 +18,11 @@ function TweetListViewModel() {
     };
 
     $.getJSON('/api/v2/tweets', function(tweetModels) {
+    	console.log('sdlfjsdljf')
 	var t = $.map(tweetModels.tweets_list, function(item) {
 	    return new Tweet(item);
 	});
-	console.log(self.tweets_list(t));
+	self.tweets_list(t);
     });
 
     self.save = function() {
