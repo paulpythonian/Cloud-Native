@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/addtweets.html" afterPath="$PROJECT_DIR$/templates/addtweets.html" />
-      <change beforePath="$PROJECT_DIR$/templates/adduser.html" afterPath="$PROJECT_DIR$/templates/adduser.html" />
+      <change beforePath="$PROJECT_DIR$/static/tweet.js" afterPath="$PROJECT_DIR$/static/tweet.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="addtweets.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addtweets.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/addtweets.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1044">
@@ -24,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweet.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tweet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/tweet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="20" />
+              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -78,9 +77,9 @@
         <option value="$PROJECT_DIR$/static/app.js" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/static/tweet.js" />
         <option value="$PROJECT_DIR$/templates/adduser.html" />
         <option value="$PROJECT_DIR$/templates/addtweets.html" />
+        <option value="$PROJECT_DIR$/static/tweet.js" />
       </list>
     </option>
   </component>
@@ -344,18 +343,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/tweet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/addtweets.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/tweet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>

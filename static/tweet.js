@@ -22,6 +22,7 @@ function TweetListViewModel() {
 	    return new Tweet(item);
 	});
 	self.tweets_list(t);
+	console.log(self.tweets_list)
     });
 
     self.save = function() {
