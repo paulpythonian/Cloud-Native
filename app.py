@@ -5,7 +5,7 @@ import sqlite3
 from time import strftime, gmtime
 import pymongo
 
-connection = pymongo.MongoClient("mongodb+srv://hsb0104:paul371621@cloud-native-cluster-p1dsn.mongodb.net/test")
+connection = pymongo.MongoClient("mongodb://hsb0104:paul371621@cloud-native-cluster-p1dsn.mongodb.net/test")
 def create_mongodatabase():
     try:
         dbnames = connection.database_names()
