@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/static/tweet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -354,7 +354,7 @@
     <entry file="file://$PROJECT_DIR$/static/tweet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding />
         </state>
       </provider>

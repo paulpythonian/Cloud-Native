@@ -21,8 +21,9 @@ function TweetListViewModel() {
 	var t = $.map(tweetModels.tweets_list, function(item) {
 	    return new Tweet(item);
 	});
-	self.tweets_list(t);
-	console.log(self.tweets_list)
+	self.tweets_list(
+		t);
+	console.log("1asd")
     });
 
     self.save = function() {
