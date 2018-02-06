@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response, abort, request, render_template
+from flask import Flask, jsonify, make_response, abort, request, render_template, session, redirect, url_for
 from flask_cors import CORS, cross_origin
 import json
 import sqlite3
@@ -165,6 +165,17 @@ def list_tweet(user_id):
 
 
 
+@app.route('/')
+def main():
+    return render_template('main.html')
+
+@app.route('/addname')
+def addname():
+    if request.args.get('yourname'):
+        session['name'] = request.args.get('yourname')
+        return redirect(url_for('main'))
+    else:
+        return render_template('addname.html', session=session)
 
 
 @app.route('/adduser')
