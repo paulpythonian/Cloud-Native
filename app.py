@@ -187,7 +187,10 @@ def adduser():
 def addtweetjs():
     return render_template('addtweets.html')
 
-
+@app.route('/clear')
+def clearsession():
+    session.clear()
+    return redirect(url_for('main'))
 
 
 
