@@ -29,14 +29,11 @@ function TweetListViewModel() {
 	    url: '/api/v2/tweets',
 	    contentType: 'application/json',
 	    type: 'POST',
-	    data: JSON.stringify({
-		'username': self.username(), 'body': self.body(),
-	    }),
+	    data: JSON.stringify({'username': self.username(), 'body': self.body()}),
 	    success: function(data) {
-          alert("success")
-		      console.log("Pushing to users array");
-		      self.push(new Tweet({ username: data.username,body: data.body}));
-		      return;
+			alert("success");
+			console.log("Pushing to users array");
+			self.push(new Tweet({ username: data.username,body: data.body}));
 	    },
 	    error: function() {
 		return console.log("Failed");

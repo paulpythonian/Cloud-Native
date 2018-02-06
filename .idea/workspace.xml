@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/templates/addtweets.html" afterPath="$PROJECT_DIR$/templates/addtweets.html" />
+      <change beforePath="$PROJECT_DIR$/static/tweet.js" afterPath="$PROJECT_DIR$/static/tweet.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="tweet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/tweet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="-468">
+              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -59,8 +58,8 @@
         <option value="$PROJECT_DIR$/templates/adduser.html" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/app.py" />
-        <option value="$PROJECT_DIR$/static/tweet.js" />
         <option value="$PROJECT_DIR$/templates/addtweets.html" />
+        <option value="$PROJECT_DIR$/static/tweet.js" />
       </list>
     </option>
   </component>
@@ -334,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/tweet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="-468">
+          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
       </provider>
