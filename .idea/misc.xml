@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.6.3 (sftp://sungbin@71.163.0.147:22/home/sungbin/Documents/cloudNative/venv/bin/python3.6)" project-jdk-type="Python SDK" />
 </project>
