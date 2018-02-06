@@ -31,7 +31,7 @@ function UserListViewModel() {
 
     self.save = function() {
 	return $.ajax({
-	    url: '/api/v1/users',
+	    url: '/api/v1/user',
 	    contentType: 'application/json',
 	    type: 'POST',
 	    data: JSON.stringify({

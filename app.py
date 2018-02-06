@@ -89,37 +89,30 @@ def add_user(new_user):
 
 
 def del_user(del_user):
-    conn = sqlite3.connect('mydb.db')
-    print('Opened database successfully')
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM users where username=?", (del_user,))
-    data = cursor.fetchall()
-    print("Data", data)
-    if len(data) == 0:
+    db = connection.cloud_native.user
+    api_list = []
+    for i in db.find({'username': del_user}):
+        api_list.append(str(i))
+
+    if api_list == []:
         abort(404)
     else:
-        cursor.execute("DELETE FROM users where username=?", (del_user,))
-        conn.commit()
+        db.remove({"username":del_user})
         return "Success"
 
 
 def upd_user(user):
-    conn = sqlite3.connect('mydb.db')
-    print('Opened database successfully');
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM users WHERE id=?", (user['id'],))
-    data = cursor.fetchall()
-    print(data)
-    if len(data) == 0:
-        abort(404)
+    api_list = []
+    print(user)
+    db_user = connection.cloud_native.user
+    users = db_user.find_one({"id":user['id']})
+    for i in users:
+        api_list.append(str(i))
+    if api_list == []:
+        abort(409)
     else:
-        key_list = user.keys()
-        for i in key_list:
-            if i != "id":
-                print(user, i)
-                cursor.execute("UPDATE users SET {0}=? WHERE id = ?".format(i), (user[i], user['id']))
-                conn.commit()
-        return "Success"
+        db_user.update({'id':user['id']}, {'$set': user}, upsert=False)
+        return 'Success'
 
 
 
