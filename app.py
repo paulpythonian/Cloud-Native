@@ -6,7 +6,7 @@ from time import strftime, gmtime
 
 from pymongo import MongoClient
 
-connection = MongoClient("mongodb://hsb0104:paul371621@ds125618.mlab.com:25618/cloudnative-mongo")
+connection = MongoClient("mongodb+srv://hsb0104:paul371621@cloud-native-cluster-p1dsn.mongodb.net/test")
 def create_mongodatabase():
     try:
         dbnames = connection.database_names()
