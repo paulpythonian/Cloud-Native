@@ -73,7 +73,7 @@ def list_user(user_id):
 def add_user(new_user):
     api_list = []
     print(new_user)
-    db = connection.cloud_native.users
+    db = connection.cloud_native.user
     user = db.find({'$or': [{"username":new_user['username']},
                             {"email":new_user['email']}]})
     for i in user:
