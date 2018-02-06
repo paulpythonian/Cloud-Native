@@ -4,8 +4,48 @@ import json
 import sqlite3
 from time import strftime, gmtime
 
+from pymongo import MongoClient
 
+connection = MongoClient("mongodb://hsb0104:paul371621@ds125618.mlab.com:25618/cloudnative-mongo")
+def create_mongodatabase():
+    try:
+        dbnames = connection.database_names()
+        if 'cloud_native' not in dbnames:
+            db = connection.cloud_native.user
+            db_tweets = connection.cloud_native.tweets
+            db_api = connection.cloud_native.apirelease
 
+            db.insert({
+                "email": "sungbin.hong@icloud.com",
+                "id": 32,
+                "name": "Sung Bin Hong",
+                "password": "@#psbH371621",
+                "username": "hsb0104"
+            })
+            db_tweets.insert({
+            "body": "New blog post,Launch your app with the AWS Startup Kit!  # AWS",
+            "id": 18,
+            "timestamp": "2017-03-11T06:39:40Z",
+            "tweetedby": "eric.strom"
+            })
+
+            db_api.insert({
+            "buildtime": "2017-01-01 10:00:00",
+            "links": "/api/v1/users",
+            "methods": "get, post, put, delete",
+            "version": "v1"
+            })
+            db_api.insert({
+            "buildtime": "2017-02-11 10:00:00",
+            "links": "api/v2/tweets",
+            "methods": "get, post",
+            "version": "2017-01-10 10:00:00"
+            })
+            print("Database Initialize completed!")
+        else:
+            print("Database already Initialized")
+    except:
+        print("Database creation failed!")
 
 app = Flask(__name__)
 app.secret_key ='alsdfoiwjoij32oro23ro2nwanfownonlfksoi'
@@ -316,5 +356,6 @@ def invaild_request(error):
 
 
 if __name__ == '__main__':
+    create_mongodatabase()
     app.run(host='0.0.0.0', port=8000, debug=True)
 
