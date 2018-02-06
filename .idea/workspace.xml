@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="" />
+    <list default="true" id="0e218485-034e-4189-9009-ebff94b159b1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,27 +16,26 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="540">
+              <caret line="246" column="49" lean-forward="false" selection-start-line="246" selection-start-column="49" selection-end-line="246" selection-end-column="49" />
               <folding>
                 <element signature="e#0#108#0" expanded="true" />
-                <marker date="1517879943347" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
-                <marker date="1517879943347" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
-                <marker date="1517879943347" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
-                <marker date="1517879943347" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
-                <marker date="1517879943347" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
-                <marker date="1517879943347" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
-                <marker date="1517879943347" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
-                <marker date="1517879943347" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
-                <marker date="1517879943347" expanded="true" signature="4577:4605" ph="UPDATE users " />
-                <marker date="1517879943347" expanded="true" signature="4577:4608" ph="UPDATE users " />
-                <marker date="1517879943347" expanded="true" signature="4577:4612" ph="UPDATE users " />
-                <marker date="1517879943347" expanded="true" signature="4577:4647" ph="UPDATE users... " />
-                <marker date="1517879943347" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
-                <marker date="1517879943347" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
-                <marker date="1517879943347" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
-                <marker date="1517879943347" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
-                <marker date="1517879943347" expanded="true" signature="7282:7340" ph="SELECT versi... apirelease" />
+                <marker date="1517880114618" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
+                <marker date="1517880114618" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
+                <marker date="1517880114618" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
+                <marker date="1517880114618" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
+                <marker date="1517880114618" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
+                <marker date="1517880114618" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
+                <marker date="1517880114618" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
+                <marker date="1517880114618" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
+                <marker date="1517880114618" expanded="true" signature="4577:4605" ph="UPDATE users " />
+                <marker date="1517880114618" expanded="true" signature="4577:4608" ph="UPDATE users " />
+                <marker date="1517880114618" expanded="true" signature="4577:4612" ph="UPDATE users " />
+                <marker date="1517880114618" expanded="true" signature="4577:4647" ph="UPDATE users... " />
+                <marker date="1517880114618" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
+                <marker date="1517880114618" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
+                <marker date="1517880114618" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
+                <marker date="1517880114618" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
               </folding>
             </state>
           </provider>
@@ -277,23 +278,22 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#108#0" expanded="true" />
-            <marker date="1517879943347" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
-            <marker date="1517879943347" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
-            <marker date="1517879943347" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
-            <marker date="1517879943347" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
-            <marker date="1517879943347" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
-            <marker date="1517879943347" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
-            <marker date="1517879943347" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="4577:4605" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4608" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4612" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4647" ph="UPDATE users... " />
-            <marker date="1517879943347" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
-            <marker date="1517879943347" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
-            <marker date="1517879943347" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
-            <marker date="1517879943347" expanded="true" signature="7282:7340" ph="SELECT versi... apirelease" />
+            <marker date="1517880114618" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
+            <marker date="1517880114618" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
+            <marker date="1517880114618" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
+            <marker date="1517880114618" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
+            <marker date="1517880114618" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
+            <marker date="1517880114618" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
+            <marker date="1517880114618" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="4577:4605" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4608" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4612" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4647" ph="UPDATE users... " />
+            <marker date="1517880114618" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
+            <marker date="1517880114618" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
+            <marker date="1517880114618" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
           </folding>
         </state>
       </provider>
@@ -371,27 +371,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="540">
+          <caret line="246" column="49" lean-forward="false" selection-start-line="246" selection-start-column="49" selection-end-line="246" selection-end-column="49" />
           <folding>
             <element signature="e#0#108#0" expanded="true" />
-            <marker date="1517879943347" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
-            <marker date="1517879943347" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
-            <marker date="1517879943347" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
-            <marker date="1517879943347" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
-            <marker date="1517879943347" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
-            <marker date="1517879943347" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
-            <marker date="1517879943347" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="4577:4605" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4608" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4612" ph="UPDATE users " />
-            <marker date="1517879943347" expanded="true" signature="4577:4647" ph="UPDATE users... " />
-            <marker date="1517879943347" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
-            <marker date="1517879943347" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
-            <marker date="1517879943347" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
-            <marker date="1517879943347" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
-            <marker date="1517879943347" expanded="true" signature="7282:7340" ph="SELECT versi... apirelease" />
+            <marker date="1517880114618" expanded="true" signature="2127:2185" ph="SELECT usern... users" />
+            <marker date="1517880114618" expanded="true" signature="2652:2682" ph="SELECT * fro... users" />
+            <marker date="1517880114618" expanded="true" signature="3162:3209" ph="SELECT * fro... users" />
+            <marker date="1517880114618" expanded="true" signature="3383:3439" ph="INSERT INTO users... " />
+            <marker date="1517880114618" expanded="true" signature="3383:3456" ph="INSERT INTO users... " />
+            <marker date="1517880114618" expanded="true" signature="3857:3893" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="4038:4072" ph="DELETE FROM users... " />
+            <marker date="1517880114618" expanded="true" signature="4285:4315" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="4577:4605" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4608" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4612" ph="UPDATE users " />
+            <marker date="1517880114618" expanded="true" signature="4577:4647" ph="UPDATE users... " />
+            <marker date="1517880114618" expanded="true" signature="4875:4924" ph="SELECT usern... tweets" />
+            <marker date="1517880114618" expanded="true" signature="5577:5613" ph="SELECT * FRO... users" />
+            <marker date="1517880114618" expanded="true" signature="5749:5811" ph="INSERT into tweets... " />
+            <marker date="1517880114618" expanded="true" signature="6124:6155" ph="SELECT * FRO... tweets" />
           </folding>
         </state>
       </provider>
