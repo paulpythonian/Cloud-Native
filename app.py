@@ -4,6 +4,7 @@ import json
 import sqlite3
 from time import strftime, gmtime
 import pymongo
+import random
 
 connection = pymongo.MongoClient("mongodb://hsb0104:paul371621@cloud-native-cluster-shard-00-00-p1dsn.mongodb.net:27017,cloud-native-cluster-shard-00-01-p1dsn.mongodb.net:27017,cloud-native-cluster-shard-00-02-p1dsn.mongodb.net:27017/test?ssl=true&replicaSet=cloud-native-cluster-shard-0&authSource=admin")
 def create_mongodatabase():
@@ -61,42 +62,31 @@ def list_users():
 
 
 def list_user(user_id):
-    conn = sqlite3.connect('mydb.db')
-    print("Opened database successfully \n\n")
-
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM users WHERE id=?", (user_id,))
-    data = cursor.fetchall()
-    if len(data) != 0:
-        user = {}
-        user['username'] = data[0][0]
-        user['email'] = data[0][1]
-        user['password'] = data[0][2]
-        user['name'] = data[0][3]
-        user['id'] = data[0][4]
-        conn.close()
-        return jsonify(user)
-    abort(404)
-
+    api_list = []
+    db = connection.cloud_native.users
+    for i in db.find({'id': user_id}):
+        api_list.append(str(i))
+    if api_list == []:
+        abort(404)
+    return jsonify({'user_details': api_list})
 
 def add_user(new_user):
-    conn = sqlite3.connect('mydb.db')
-    print('Opened database successfully')
-    cursor = conn.cursor()
-    cursor.execute("SELECT * from users where username=? or email=?", (new_user['username'], new_user['email']))
-    data = cursor.fetchall()
-    if len(data) != 0:
-        print('eror1')
-        abort(409)
-    else:
-        cursor.execute("INSERT INTO users (username, email, password, full_name) VALUES (?,?,?,?)",
-                       ( new_user['username'],
-                         new_user['email'],
-                         new_user['password'],
-                         new_user['name']))
-        conn.commit()
+    api_list = []
+    print(new_user)
+    db = connection.cloud_native.users
+    user = db.find({'$or': [{"username":new_user['username']},
+                            {"email":new_user['email']}]})
+    for i in user:
+        print(str(i))
+        api_list.append(str(i))
+
+    if api_list == []:
+        db.insert(new_user)
         return "Success"
-    conn.close()
+    else:
+        abort(409)
+
+
 
 def del_user(del_user):
     conn = sqlite3.connect('mydb.db')
@@ -256,7 +246,8 @@ def create_user():
         'username': request.json['username'],
         'email': request.json['email'],
         'name': request.json.get('name', ''),
-        'password': request.json['password']
+        'password': request.json['password'],
+        'id': random.randint(1, 1000)
     }
     return jsonify({'status': add_user(user)}), 201
 
